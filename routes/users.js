@@ -25,7 +25,7 @@ app.get('/example2/:firstName/:lastName',
     }
 );
 
-app.post('/',
+app.post('/post',
     function(request,response){
         response.send(request.body);
         console.log(request.body);
